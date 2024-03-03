@@ -2,19 +2,29 @@ import { Link } from "react-router-dom";
 
 const Nav = ({ currentPage }) => {
   const pages = ["Portfolio", "Contact", "Resume"];
+  console.log(currentPage);
 
   return (
     <nav className="dev-border nav">
       <ul>
-        <li className={` ${currentPage === "/" && "active-link"}`} key="About">
-          <Link to="/">About</Link>
+        <li>
+          <Link
+            className={` ${currentPage === "/" && "active-link"}`}
+            key="About"
+            to="/"
+          >
+            About
+          </Link>
         </li>
         {pages.map((Page) => (
-          <li
-            className={`${currentPage === `/${Page}` && "active-link"}`}
-            key={Page}
-          >
-            <Link to={`/${Page}`}>{Page}</Link>
+          <li>
+            <Link
+              className={`${currentPage === `/${Page}` && "active-link"}`}
+              key={Page}
+              to={`/${Page}`}
+            >
+              {Page}
+            </Link>
           </li>
         ))}
       </ul>
