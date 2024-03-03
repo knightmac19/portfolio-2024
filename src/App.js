@@ -8,13 +8,15 @@ const App = () => {
   const currentPage = useLocation().pathname;
 
   return (
-    <div>
-      <Header>
-        <Nav currentPage={currentPage} />
-      </Header>
-      <main>
-        <Page currentPage={currentPage} />
-      </main>
+    <div id="page-container">
+      <div id="content-wrap">
+        <Header>
+          <Nav currentPage={currentPage} />
+        </Header>
+        <main>
+          <Page currentPage={currentPage} />
+        </main>
+      </div>
       <Footer />
     </div>
   );
