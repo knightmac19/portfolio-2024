@@ -5,7 +5,7 @@ const Nav = ({ currentPage }) => {
   console.log(currentPage);
 
   return (
-    <nav className="dev-border nav">
+    <nav className=" nav">
       <ul>
         <li>
           <Link
