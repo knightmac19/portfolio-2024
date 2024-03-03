@@ -5,7 +5,7 @@ import Page from "./components/Page";
 import { useLocation } from "react-router-dom";
 
 const App = () => {
-  const currentPage = useLocation.pathname;
+  const currentPage = useLocation().pathname;
 
   return (
     <div>
