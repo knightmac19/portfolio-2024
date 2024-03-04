@@ -6,6 +6,15 @@
   --van-dyke: #463730;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.5rem;
+}
+
 section,
 footer,
 header,
@@ -22,6 +31,7 @@ nav {
 
 body {
   margin: 0;
+
   /* font-family: "Inter", sans-serif; */
   font-size: 1rem;
   font-weight: 400;
@@ -34,15 +44,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 3.5rem;
 }
 
 h1,
@@ -129,7 +130,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 2rem 4rem 2rem;
+  margin: 0 2rem 4rem 2rem;
 }
 
 /* nav component */
