@@ -188,6 +188,67 @@ nav .nav {
   font-size: 1.2rem;
 }
 
+/* portfolio component */
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+/* project component */
+.project-card {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  height: 300px;
+}
+
+.project-card .project-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-info {
+  color: white;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 50px;
+  z-index: 500;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-info:hover {
+  background-color: var(--air-superiority-blue);
+  opacity: 0.9;
+  border: 5px solid var(--lapis-lazuli);
+  border-radius: 8px;
+}
+
+.card-info h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-info h2 span {
+  display: flex;
+  align-items: center;
+}
+
+.card-info h2 a {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
 footer {
   position: absolute;
   bottom: 0;

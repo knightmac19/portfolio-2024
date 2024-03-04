@@ -7,6 +7,8 @@ import {
   wordle_helper,
 } from "../../assets";
 
+import Project from "../Project";
+
 const projects = [
   {
     id: 0,
@@ -124,6 +126,11 @@ const Portfolio = () => {
   return (
     <div className="portfolio container">
       <h2 className="header-md">Portfolio</h2>
+      <div className="portfolio-cards">
+        {projects.map((project) => (
+          <Project project={project} key={project.id} />
+        ))}
+      </div>
     </div>
   );
 };
