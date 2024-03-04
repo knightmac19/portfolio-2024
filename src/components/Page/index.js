@@ -15,8 +15,6 @@ const Page = ({ currentPage }) => {
 
   return (
     <section>
-      <h2>{currentPage}</h2>
-
       <PageContent>
         <Outlet />
       </PageContent>
