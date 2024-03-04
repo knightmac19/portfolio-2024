@@ -7,7 +7,10 @@ const Page = ({ currentPage }) => {
   currentPage = currentPage.substring(1);
 
   useEffect(() => {
-    document.title = currentPage === "" ? "About" : currentPage;
+    document.title =
+      currentPage === ""
+        ? `Patrick Dunn | About`
+        : `Patrick Dunn | ${currentPage}`;
   }, [currentPage]);
 
   return (

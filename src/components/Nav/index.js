@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 
 const Nav = ({ currentPage }) => {
   const pages = ["Portfolio", "Contact", "Resume"];
-  console.log(currentPage);
 
   return (
     <nav className=" nav">
@@ -17,10 +16,9 @@ const Nav = ({ currentPage }) => {
           </Link>
         </li>
         {pages.map((Page) => (
-          <li>
+          <li key={Page}>
             <Link
               className={`${currentPage === `/${Page}` && "active-link"}`}
-              key={Page}
               to={`/${Page}`}
             >
               {Page}

@@ -7,7 +7,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa fa-lg fa-github"></i>
+        <i className="fa fa-lg fa-github"></i>
       </a>
     </footer>
   );
