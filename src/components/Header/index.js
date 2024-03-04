@@ -1,6 +1,6 @@
 const Header = (props) => {
   return (
-    <header>
+    <header className="header-container">
       <h1 className="header-lg">Patrick Dunn</h1>
       {props.children}
     </header>
