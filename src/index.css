@@ -235,6 +235,8 @@ nav .nav {
   min-width: 242px;
   width: 100%;
   min-height: 150px;
+  box-shadow: 2px 2px 3px 3px var(--footer-bg);
+  border-radius: 8px;
 }
 
 .project-card .project-img {
@@ -258,6 +260,13 @@ nav .nav {
 }
 
 .card-info:hover {
+  background-color: var(--card-hover);
+  opacity: 0.9;
+  border: 5px solid var(--card-hover-text);
+  border-radius: 8px;
+}
+
+.card-info:active {
   background-color: var(--card-hover);
   opacity: 0.9;
   border: 5px solid var(--card-hover-text);
@@ -306,6 +315,96 @@ footer i:hover {
   color: var(--footer-bg);
 }
 
+/* contact page section */
+.contact-page-wrapper h2 {
+  padding: 10px 20px;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact {
+  background-color: var(--footer-bg);
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact form {
+  width: 90%;
+}
+
+.contact form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.contact form div label {
+  width: 100%;
+  color: var(--header-text);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contact form div input,
+.contact form div textarea {
+  width: 100%;
+  font-size: 1rem;
+  border: 1px solid var(--header-bg);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  padding: 8px;
+}
+
+/* .contact form div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+} */
+
+input:focus {
+  border: 1px solid var(--header-text);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+textarea {
+  resize: vertical;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.contact .btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--header-text);
+  padding: 10px 15px;
+  opacity: 0.7;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: 0.8;
+}
+
 @media (max-width: 1053px) {
   .portfolio {
     text-align: center;
@@ -330,6 +429,11 @@ footer i:hover {
 
   .about-me .about-me-text {
     text-align: center;
+  }
+
+  .contact,
+  .contact-page-wrapper h2 {
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
