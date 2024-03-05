@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const validateEmail = (email) => {
   const regex =
@@ -21,6 +22,20 @@ const Contact = () => {
     if (!errorMsg) {
       console.log("Submit Form", formState);
     }
+
+    emailjs
+      .sendForm("service_xm0oxww", "template_a18b0nw", form.current, {
+        publicKey: "NS1YR5Ns2es5HiSnm",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+    e.target.reset();
   };
 
   const handleChange = (e) => {
@@ -44,11 +59,13 @@ const Contact = () => {
     }
   };
 
+  const form = useRef();
+
   return (
     <div className="contact-page-wrapper ">
       <h2 className="header-md ">Contact</h2>
       <div className="contact container ">
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <form id="contact-form" onSubmit={handleSubmit} ref={form}>
           <div>
             <label htmlFor="name">Name:</label>
             <input
