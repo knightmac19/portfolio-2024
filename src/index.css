@@ -193,6 +193,18 @@ nav .nav {
 }
 
 /* about component */
+
+.about-page-wrapper h2 {
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.about-page-wrapper h2,
+.about-me {
+  max-width: 900px;
+  width: 90%;
+}
+
 .about-me {
   background-color: var(--header-bg);
   padding: 20px;
