@@ -7,15 +7,17 @@ const Project = ({ project }) => {
       <div className="card-info">
         <h2>
           <span>
-            <a href={deployed}>{name}</a>
+            <a href={deployed} target="_blank" rel="noopener noreferrer">
+              {name}
+            </a>
           </span>
           <span>
-            <a href={deployed}>
+            <a href={deployed} target="_blank" rel="noopener noreferrer">
               <i className="fas fa-location-arrow"></i>
             </a>
           </span>
           <span>
-            <a href={repo}>
+            <a href={repo} target="_blank" rel="noopener noreferrer">
               <i className="fab fa-lg fa-github"></i>
             </a>
           </span>
