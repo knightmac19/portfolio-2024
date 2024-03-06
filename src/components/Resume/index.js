@@ -64,6 +64,28 @@ const Resume = () => {
     <div className="resume-page">
       <div className="resume-text-wrapper container">
         <h2 className="header-md">Resume</h2>
+        <div className="btns-and-list">
+          <div className="btns">
+            <button className="btn view-resume-btn">View</button>
+            <button className="btn download-resume-btn">Download</button>
+          </div>
+          <ul>
+            <li>FULL STACK WEB DEVELOPMENT</li>
+            <li>OBJECT RELATIONAL MAPPING</li>
+            <li>PROGRESSIVE WEB APPS</li>
+            <li>AGILE DEVELOPMENT</li>
+            <li>STATE MANAGEMENT</li>
+            <li>VERSION CONTROL</li>
+            <li>THIRD-PARTY API'S</li>
+            <li>MOBILE FIRST</li>
+            <li>JAVASCRIPT</li>
+            <li>EXPRESS</li>
+            <li>MONGO</li>
+            <li>MYSQL</li>
+            <li>REACT</li>
+            <li>NODE</li>
+          </ul>
+        </div>
       </div>
       <div className="skills-wrapper">
         <ul

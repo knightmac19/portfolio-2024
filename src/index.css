@@ -411,7 +411,32 @@ button[disabled] {
   opacity: 0.8;
 }
 
-.resume-page {
+.btns-and-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resume-text-wrapper .btn {
+  padding: 20px 30px;
+  margin-right: 2rem;
+  background-color: var(--header-bg);
+}
+
+.btns {
+  margin-top: 5rem;
+}
+
+.btns-and-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.btns-and-list li {
+  list-style: none;
+  color: var(--header-text);
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .resume-page .skills {
@@ -495,6 +520,34 @@ button[disabled] {
     }
   }
 }
+
+@media (max-width: 700px) {
+  .btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .resume-text-wrapper .btn {
+    margin-right: 0;
+  }
+
+  .btns-and-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btns-and-list ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (max-width: 500px) {
   .nav ul {
     padding-left: 0;
@@ -513,6 +566,11 @@ button[disabled] {
   .header-md {
     font-size: 2rem;
   }
+
+  .btns-and-list li {
+    font-size: 1rem;
+  }
+
   @keyframes animateContainer {
     from {
       transform: translateX(0);
@@ -520,5 +578,11 @@ button[disabled] {
     to {
       transform: translateX(-3500%);
     }
+  }
+}
+
+@media (max-width: 300px) {
+  .btns-and-list li {
+    font-size: 0.875rem;
   }
 }
