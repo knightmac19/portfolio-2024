@@ -23,26 +23,6 @@
   --card-hover-text: #fffcf7;
   --footer-bg: #a1b5d8;
   --footer-text: #fffcf7;
-
-  /* --skills-wrapper-width: 90vw;
-  --skills-wrapper-height: 15vh;
-  --skills-displayed: 5;
-  --skill-width: calc(var(--skills-wrapper-width) / var(--skills-displayed));
-  --skills: 12;
-  --duration: calc(var(--skills) * 3); */
-
-  --skills-wrapper-width: 80vw;
-  --skills-wrapper-height: 15vh;
-  --skills-displayed: 5;
-  --skill-width: calc(var(--skills-wrapper-width) / var(--skills-displayed));
-  --duration: calc(var(--skills) * 3s);
-  --skills: 12;
-
-  /* --main-bg: #c2d8b9;
-  --light-blue: #a1b5d8;
-  --card-bg: #738290;
-  --primary: #fffcf7;
-  --secondary: #e4f0d0; */
 }
 
 #page-container {
@@ -434,68 +414,45 @@ button[disabled] {
 .resume-page {
 }
 
-/* .resume-page .skills {
+.resume-page .skills {
   background-color: var(--header-bg);
   color: var(--header-text);
-  border-radius: 8px;
-} */
+}
+
+.resume-page {
+  overflow: hidden;
+}
 
 .skills-wrapper {
-  width: var(skills-wrapper-width);
-  height: var(skills-wrapper-height);
-  overflow: hidden;
-  margin: 2rem auto;
-  position: relative;
+  overflow: visible;
+  animation: animateContainer 300s linear forwards infinite;
 }
 
 .skills {
   list-style: none;
   display: flex;
   height: 100%;
-  animation: scrolling var(--duration) linear infinite;
 }
 
 .skills li {
-  width: var(--skill-width);
+  display: flex;
+  width: 200px;
+  height: 200px;
   justify-content: center;
   align-items: center;
   max-height: 100%;
   white-space: nowrap;
   flex-shrink: 0;
-  font-size: calc(var(--skills-wrapper-height) * 3 / 4);
+  font-size: 100px;
 }
 
-.skills-wrapper::before,
-.skills-wrapper::after {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  content: "";
-  z-index: 1;
-  width: 10rem;
-}
-
-.skills-wrapper::before {
-  left: 0;
-  background: linear-gradient(
-    to right,
-    var(--header-text) 0%,
-    transparent 100%
-  );
-}
-.skills-wrapper::after {
-  right: 0;
-  background: linear-gradient(to left, var(--header-text) 0%, transparent 100%);
-}
-
-@keyframes scrolling {
-  0% {
+@keyframes animateContainer {
+  from {
     transform: translateX(0);
   }
-  100% {
-    transform: translateX(
-      calc(-1 * var(--skills-wrapper-width) * var(--skills))
-    );
+  to {
+    /* transform: translateX(-480%); */
+    transform: translateX(-1500%);
   }
 }
 
