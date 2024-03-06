@@ -451,7 +451,6 @@ button[disabled] {
     transform: translateX(0);
   }
   to {
-    /* transform: translateX(-480%); */
     transform: translateX(-1500%);
   }
 }
@@ -486,6 +485,15 @@ button[disabled] {
   .contact-page-wrapper h2 {
     width: 100%;
   }
+
+  @keyframes animateContainer {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-2500%);
+    }
+  }
 }
 @media (max-width: 500px) {
   .nav ul {
@@ -504,5 +512,13 @@ button[disabled] {
 
   .header-md {
     font-size: 2rem;
+  }
+  @keyframes animateContainer {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-3500%);
+    }
   }
 }

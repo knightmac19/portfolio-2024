@@ -61,8 +61,10 @@ const Resume = () => {
   });
 
   return (
-    <div className="resume-page container">
-      <h2 className="header-md">Resume</h2>
+    <div className="resume-page">
+      <div className="resume-text-wrapper container">
+        <h2 className="header-md">Resume</h2>
+      </div>
       <div className="skills-wrapper">
         <ul
           className="skills"
