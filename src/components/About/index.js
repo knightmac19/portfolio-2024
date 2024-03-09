@@ -19,9 +19,26 @@ const About = () => {
             education, I excel in collaborative environments. My strong
             communication skills enable me to seamlessly engage with clients and
             team members to ensure timely, high-quality results. Feel free to
-            explore my projects, delve into my GitHub repositories, or check out
-            my latest articles on Medium. I look forward to collaborating with
-            you and bringing your ideas to life!
+            explore my projects, delve into my{" "}
+            <a
+              href="https://github.com/knightmac19"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about-link"
+            >
+              GitHub
+            </a>{" "}
+            repositories, or check out my latest articles on{" "}
+            <a
+              href="https://medium.com/@patrickdunn_15451"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about-link"
+            >
+              Medium
+            </a>
+            . I look forward to collaborating with you and bringing your ideas
+            to life!
           </p>
         </div>
       </section>

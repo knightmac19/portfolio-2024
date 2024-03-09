@@ -225,6 +225,10 @@ nav .nav {
   font-size: 1.2rem;
 }
 
+.about-link {
+  color: var(--main-bg);
+}
+
 /* portfolio component */
 .portfolio-cards {
   display: flex;
