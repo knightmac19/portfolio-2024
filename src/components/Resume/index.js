@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import Skill from "../Skill";
+import { Patrick_Dunn_Resume } from "../../assets";
 
 const iconClasses = [
   { classes: "fab fa-github" },
@@ -66,8 +67,21 @@ const Resume = () => {
         <h2 className="header-md">Resume</h2>
         <div className="btns-and-list">
           <div className="btns">
-            <button className="btn view-resume-btn">View</button>
-            <button className="btn download-resume-btn">Download</button>
+            <a
+              href="https://docs.google.com/document/d/1na7m96W9wxRnqFdkmKOGGR1SwPzswAE8vj6YZGe6V0U/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn view-resume-btn"
+            >
+              View
+            </a>
+            <a
+              href={Patrick_Dunn_Resume}
+              download
+              className="btn download-resume-btn"
+            >
+              Download
+            </a>
           </div>
           <ul>
             <li>FULL STACK WEB DEVELOPMENT</li>

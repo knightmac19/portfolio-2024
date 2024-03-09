@@ -420,6 +420,8 @@ button[disabled] {
   padding: 20px 30px;
   margin-right: 2rem;
   background-color: var(--header-bg);
+  color: var(--main-bg);
+  text-decoration: none;
 }
 
 .btns {
