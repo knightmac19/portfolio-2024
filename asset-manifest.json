@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-2024/static/css/main.05b4fbe7.css",
+    "main.js": "/portfolio-2024/static/js/main.d5e3557c.js",
+    "static/js/453.420acfe6.chunk.js": "/portfolio-2024/static/js/453.420acfe6.chunk.js",
+    "static/media/complete_weather.png": "/portfolio-2024/static/media/complete_weather.f51a17936b2dcc3a7480.png",
+    "static/media/saas_site.png": "/portfolio-2024/static/media/saas_site.b12fb63e71a6736d1963.png",
+    "static/media/top_scorers.png": "/portfolio-2024/static/media/top_scorers.cc06ab6c666226d94741.png",
+    "static/media/employee_directory.png": "/portfolio-2024/static/media/employee_directory.0064ba7bc310a1cdd004.png",
+    "static/media/money_dunn_right.png": "/portfolio-2024/static/media/money_dunn_right.8a3f9125032e218a761a.png",
+    "static/media/resume.pdf": "/portfolio-2024/static/media/resume.ddd378816a8de5aa2986.pdf",
+    "static/media/fb_headhshot.jpeg": "/portfolio-2024/static/media/fb_headhshot.5187b6d61eaafd689bde.jpeg",
+    "static/media/wordle_helper.png": "/portfolio-2024/static/media/wordle_helper.6ebb91022de402e3aadd.png",
+    "index.html": "/portfolio-2024/index.html",
+    "main.05b4fbe7.css.map": "/portfolio-2024/static/css/main.05b4fbe7.css.map",
+    "main.d5e3557c.js.map": "/portfolio-2024/static/js/main.d5e3557c.js.map",
+    "453.420acfe6.chunk.js.map": "/portfolio-2024/static/js/453.420acfe6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05b4fbe7.css",
+    "static/js/main.d5e3557c.js"
+  ]
+}
