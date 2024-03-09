@@ -326,12 +326,15 @@ footer i:hover {
 }
 
 /* contact page section */
+.contact-page-wrapper {
+  margin-bottom: 3rem;
+}
+
 .contact-page-wrapper h2 {
   padding: 10px 20px;
   width: 60%;
   max-width: 600px;
   margin: 0 auto;
-  margin-bottom: 3rem;
 }
 
 .contact {

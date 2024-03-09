@@ -14,14 +14,14 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-lg fa-medium"></i>
+        <i className="fab fa-lg fa-medium"></i>
       </a>
       <a
         href="https://www.linkedin.com/in/patrick-dunn-3a14249b/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-lg fa-linkedin"></i>
+        <i className="fab fa-lg fa-linkedin"></i>
       </a>
     </footer>
   );
