@@ -28,14 +28,14 @@ const About = () => {
             >
               GitHub
             </a>{" "}
-            repositories, or check out my latest articles on{" "}
+            repositories, or connect with me on{" "}
             <a
-              href="https://medium.com/@patrickdunn_15451"
+              href="https://www.linkedin.com/in/patrick-dunn-3a14249b/"
               target="_blank"
               rel="noopener noreferrer"
               className="about-link"
             >
-              Medium
+              LinkedIn
             </a>
             . I look forward to collaborating with you and bringing your ideas
             to life!
