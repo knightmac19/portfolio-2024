@@ -331,6 +331,7 @@ footer i:hover {
   width: 60%;
   max-width: 600px;
   margin: 0 auto;
+  margin-bottom: 3rem;
 }
 
 .contact {
