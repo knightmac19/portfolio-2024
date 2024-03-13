@@ -9,13 +9,7 @@ const Footer = () => {
       >
         <i className="fa fa-lg fa-github"></i>
       </a>
-      <a
-        href="https://medium.com/@patrickdunn_15451"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-lg fa-medium"></i>
-      </a>
+
       <a
         href="https://www.linkedin.com/in/patrick-dunn-3a14249b/"
         target="_blank"
