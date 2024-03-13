@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -9,7 +10,9 @@ const App = () => {
         <Header>
           <Nav />
         </Header>
-        <main></main>
+        <main>
+          <About />
+        </main>
       </div>
       <Footer />
     </div>
