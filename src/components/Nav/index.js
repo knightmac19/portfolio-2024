@@ -12,11 +12,11 @@ const Nav = () => {
   const links = [
     { title: "About", href: "#about" },
 
-    { title: "Highlights", href: "#highlights" },
+    { title: "Fun Facts", href: "#facts" },
 
     { title: "Projects", href: "#projects" },
 
-    { title: "Resume", href: "#resume" },
+    { title: "Profile", href: "#profile" },
   ];
 
   return (
