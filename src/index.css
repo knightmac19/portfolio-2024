@@ -34,7 +34,8 @@ nav {
 }
 
 body {
-  margin: 50px 0 0 0;
+  /* margin: 88px 0 0 0; */
+  margin: 0;
 
   /* font-family: "Inter", sans-serif; */
   font-size: 1rem;
@@ -209,7 +210,7 @@ nav a:active {
 /* about section */
 .about-wrapper {
   background-color: var(--redo-light-gray);
-  padding: 50px 0 0 0;
+
   margin-bottom: 50px;
 }
 
@@ -233,31 +234,31 @@ nav a:active {
   margin-right: 50px;
 }
 
-/* highlighs section */
-.highlights {
+/* facts section */
+.facts {
   display: flex;
   flex-wrap: wrap;
   /* gap: 3rem; */
   justify-content: center;
 }
 
-.highlights .facts-icon {
+.facts .facts-icon {
   font-size: 1.7rem;
 }
 
-.highlights li i {
+.facts li i {
   font-size: 1.3rem;
   vertical-align: middle;
   margin-right: 0.5rem;
 }
 
-.highlights .highlights-segment {
+.facts .facts-segment {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.highlights .highlights-segment li {
+.facts .facts-segment li {
   list-style: none;
   margin-bottom: 1rem;
 }
@@ -391,6 +392,13 @@ footer i {
 footer i:hover {
   background-color: var(--light-text);
   color: var(--redo-cobalt);
+}
+
+.about-wrapper,
+.facts-wrapper,
+.projects-wrapper,
+.profile-wrapper {
+  padding-top: 88px;
 }
 
 @media (max-width: 1053px) {

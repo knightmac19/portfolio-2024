@@ -2,7 +2,7 @@ import { fb_headshot } from "../../assets";
 
 const About = () => {
   return (
-    <div className="about-wrapper">
+    <div id="about" className="about-wrapper">
       <section className="about-me container ">
         {/* <div className="img-wrapper dev-bdr">
           <img src={fb_headshot} alt="professional head and shoulders" />
