@@ -199,8 +199,8 @@ nav a:active {
 .burger-menu {
   display: none;
   position: fixed;
-  top: 13px;
-  right: 15px;
+  top: 26px;
+  right: 26px;
   z-index: 10;
 }
 
