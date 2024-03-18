@@ -247,6 +247,7 @@ nav a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 100;
 }
 
 .modal-body {
