@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-2024/static/css/main.63850675.css",
-    "main.js": "/portfolio-2024/static/js/main.62c2533c.js",
-    "static/js/453.420acfe6.chunk.js": "/portfolio-2024/static/js/453.420acfe6.chunk.js",
+    "main.css": "/portfolio-2024/static/css/main.9d0679bb.css",
+    "main.js": "/portfolio-2024/static/js/main.1c1b71e8.js",
+    "static/js/453.916e1103.chunk.js": "/portfolio-2024/static/js/453.916e1103.chunk.js",
     "static/media/complete_weather.png": "/portfolio-2024/static/media/complete_weather.f51a17936b2dcc3a7480.png",
     "static/media/saas_site.png": "/portfolio-2024/static/media/saas_site.b12fb63e71a6736d1963.png",
     "static/media/top_scorers.png": "/portfolio-2024/static/media/top_scorers.cc06ab6c666226d94741.png",
@@ -12,12 +12,12 @@
     "static/media/fb_headhshot.jpeg": "/portfolio-2024/static/media/fb_headhshot.5187b6d61eaafd689bde.jpeg",
     "static/media/wordle_helper.png": "/portfolio-2024/static/media/wordle_helper.6ebb91022de402e3aadd.png",
     "index.html": "/portfolio-2024/index.html",
-    "main.63850675.css.map": "/portfolio-2024/static/css/main.63850675.css.map",
-    "main.62c2533c.js.map": "/portfolio-2024/static/js/main.62c2533c.js.map",
-    "453.420acfe6.chunk.js.map": "/portfolio-2024/static/js/453.420acfe6.chunk.js.map"
+    "main.9d0679bb.css.map": "/portfolio-2024/static/css/main.9d0679bb.css.map",
+    "main.1c1b71e8.js.map": "/portfolio-2024/static/js/main.1c1b71e8.js.map",
+    "453.916e1103.chunk.js.map": "/portfolio-2024/static/js/453.916e1103.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63850675.css",
-    "static/js/main.62c2533c.js"
+    "static/css/main.9d0679bb.css",
+    "static/js/main.1c1b71e8.js"
   ]
 }
