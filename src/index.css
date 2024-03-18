@@ -237,6 +237,14 @@ nav a:active {
   text-align: right;
   margin-right: 50px;
 }
+
+.about-me-text {
+  /* inline-size: 600px;
+  overflow-wrap: break-word; */
+  text-align: justify;
+}
+
+/* modal */
 .modal {
   position: fixed;
   left: 0;
@@ -551,6 +559,12 @@ footer i:hover {
 }
 
 @media (max-width: 500px) {
+  .about-me .text-wrapper .header-md {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-right: 0;
+  }
+
   .about-me img {
     width: 150px;
     margin-right: 1.15rem;
