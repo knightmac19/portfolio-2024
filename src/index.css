@@ -236,8 +236,42 @@ nav a:active {
   text-align: right;
   margin-right: 50px;
 }
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body {
+  padding: 15px 30px 30px 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.modal .close-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.modal i {
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--dark-text);
+}
+
+.modal .embedded {
+  width: 400px;
+}
 
 /* facts section */
+
 .facts {
   display: flex;
   flex-wrap: wrap;
@@ -254,9 +288,10 @@ nav a:active {
 }
 
 .facts li i {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   vertical-align: middle;
-  margin-right: 0.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
 }
 
 .facts .facts-segment {
@@ -270,6 +305,11 @@ nav a:active {
 .facts .facts-segment li {
   list-style: none;
   margin-bottom: 1rem;
+}
+
+.facts .modal-text {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* projects section */
@@ -465,6 +505,29 @@ footer i:hover {
   .about-me img {
     width: 150px;
     margin-right: 1.15rem;
+  }
+
+  .modal-body {
+    padding: 10px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+  }
+
+  .modal .close-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.25rem;
+  }
+
+  .modal i {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--dark-text);
+  }
+
+  .modal .embedded {
+    width: 328px;
+    margin: 0 auto;
   }
 }
 

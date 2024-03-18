@@ -16,6 +16,7 @@ const App = () => {
         <main>
           <About />
           <FunFacts />
+
           <Projects />
           <Profile />
         </main>

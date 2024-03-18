@@ -1,6 +1,21 @@
+import { useState } from "react";
+
+import Modal from "../Modal";
+
 const FunFacts = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <div id="facts" className="facts-wrapper">
+      <Modal modalOpen={modalOpen} onClose={closeModal} />
       <section className="facts container">
         <div className="facts-segment   ">
           <h2 className="sub-header">Superpowers</h2>
@@ -21,7 +36,12 @@ const FunFacts = () => {
           <ul>
             <li>Speak 3 languages: English, Spanish, German</li>
             <li>Lived in Mexico for 4 years</li>
-            <li>Regularly train Brazilian Jiu Jitsu</li>
+            <li className="activate-modal" onClick={openModal}>
+              <span className="modal-text">
+                Regularly train Brazilian Jiu Jitsu
+              </span>
+              <i className="fas fa-video"></i>
+            </li>
           </ul>
         </div>
         <div className="facts-segment  ">
