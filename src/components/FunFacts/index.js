@@ -1,4 +1,4 @@
-const Highlights = () => {
+const FunFacts = () => {
   return (
     <div id="facts" className="facts-wrapper">
       <section className="facts container">
@@ -40,4 +40,4 @@ const Highlights = () => {
   );
 };
 
-export default Highlights;
+export default FunFacts;
