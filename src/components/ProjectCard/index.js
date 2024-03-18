@@ -35,7 +35,10 @@ const ProjectCard = ({ project }) => {
             <span className="link ">
               <a href={repo} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
-                  <i className="fab fa-lg fa-github"></i>
+                  <div className="link-icon-wrapper">
+                    <i className="fab fa-lg fa-github"></i>
+                  </div>
+
                   <span>Repository</span>
                 </div>
               </a>
@@ -44,7 +47,10 @@ const ProjectCard = ({ project }) => {
             <span className="link ">
               <a href={deployed} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
-                  <i className="fas fa-rocket"></i>
+                  <div className="link-icon-wrapper">
+                    <i className="fas fa-rocket"></i>
+                  </div>
+
                   <span>Deployed</span>
                 </div>
               </a>
@@ -69,7 +75,10 @@ const ProjectCard = ({ project }) => {
             <span className="link ">
               <a href={repo} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
-                  <i className="fab fa-lg fa-github"></i>
+                  <div className="link-icon-wrapper">
+                    <i className="fab fa-lg fa-github"></i>
+                  </div>
+
                   <span>Repository</span>
                 </div>
               </a>
@@ -78,7 +87,10 @@ const ProjectCard = ({ project }) => {
             <span className="link ">
               <a href={deployed} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
-                  <i className="fas fa-rocket"></i>
+                  <div className="link-icon-wrapper">
+                    <i className="fas fa-rocket"></i>
+                  </div>
+
                   <span>Deployed</span>
                 </div>
               </a>
@@ -106,7 +118,10 @@ const ProjectCard = ({ project }) => {
               <span className="link ">
                 <a href={repo} rel="noopener noreferrer" target="_blank">
                   <div className="icon-text">
-                    <i className="fab fa-lg fa-github"></i>
+                    <div className="link-icon-wrapper">
+                      <i className="fab fa-lg fa-github"></i>
+                    </div>
+
                     <span>Repository</span>
                   </div>
                 </a>
@@ -115,7 +130,10 @@ const ProjectCard = ({ project }) => {
               <span className="link ">
                 <a href={deployed} rel="noopener noreferrer" target="_blank">
                   <div className="icon-text">
-                    <i className="fas fa-rocket"></i>
+                    <div className="link-icon-wrapper">
+                      <i className="fas fa-rocket"></i>
+                    </div>
+
                     <span>Deployed</span>
                   </div>
                 </a>
@@ -137,7 +155,10 @@ const ProjectCard = ({ project }) => {
             <span className="link ">
               <a href={repo} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
-                  <i className="fab fa-lg fa-github"></i>
+                  <div className="link-icon-wrapper">
+                    <i className="fab fa-lg fa-github"></i>
+                  </div>
+
                   <span>Repository</span>
                 </div>
               </a>
@@ -146,7 +167,10 @@ const ProjectCard = ({ project }) => {
             <span className="link ">
               <a href={deployed} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
-                  <i className="fas fa-rocket"></i>
+                  <div className="link-icon-wrapper">
+                    <i className="fas fa-rocket"></i>
+                  </div>
+
                   <span>Deployed</span>
                 </div>
               </a>
