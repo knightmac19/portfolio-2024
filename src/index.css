@@ -49,6 +49,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--dark-text);
 }
 
 h1,
@@ -210,8 +211,11 @@ nav a:active {
 /* about section */
 .about-wrapper {
   background-color: var(--redo-light-gray);
-
   margin-bottom: 50px;
+}
+
+.about-me a {
+  color: var(--dark-text);
 }
 
 .about-me img {

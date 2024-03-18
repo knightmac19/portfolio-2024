@@ -20,8 +20,24 @@ const About = () => {
             excel in collaborative environments. My strong communication skills
             enable me to seamlessly engage with clients and team members to
             ensure timely, high-quality results. Feel free to explore my
-            projects, delve into my GitHub repositories, or connect with me on
-            LinkedIn. I look forward to collaborating with you and bringing your
+            projects, delve into my{" "}
+            <a
+              href="https://github.com/knightmac19"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              GitHub repositories
+            </a>
+            {", "}
+            or connect with me on{" "}
+            <a
+              href="https://www.linkedin.com/in/patrick-dunn-3a14249b/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            {". "}I look forward to collaborating with you and bringing your
             ideas to life!
           </p>
         </div>
