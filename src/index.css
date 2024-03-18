@@ -395,7 +395,7 @@ nav a:active {
   font-size: 1.25rem;
 }
 
-.links .link-icon-wrapper {
+.icon-text .link-icon-wrapper {
   width: 26px;
   display: flex;
   justify-content: center;
@@ -415,6 +415,45 @@ nav a:active {
 }
 
 /* profile section */
+.profile-wrapper .title-bg {
+  background-color: var(--redo-light-gray);
+  padding: 20px 0;
+}
+.profile-wrapper .title {
+  text-align: center;
+}
+.profile-wrapper .title .resume-link {
+}
+
+.resume-link .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-link .link .icon-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  color: var(--dark-text);
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 1.25rem;
+}
+
+.resume-link .link .icon-text:hover {
+  background-color: var(--redo-cobalt);
+  color: var(--light-text);
+}
+
+.resume-link .link a {
+  text-decoration: none;
+}
+.resume-link .link a:hover {
+  text-decoration: none;
+}
 
 footer {
   position: absolute;
