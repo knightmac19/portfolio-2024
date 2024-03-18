@@ -427,6 +427,11 @@ nav a:active {
   text-align: center;
 }
 
+.profile-wrapper .title p {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .resume-link .link {
   display: flex;
   justify-content: center;
@@ -473,12 +478,6 @@ nav a:active {
   font-size: 1.2rem;
   font-weight: 300;
 }
-
-/* .profile-body .thing-wrapper {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-} */
 
 .card h4 {
   display: flex;
@@ -611,6 +610,11 @@ footer i:hover {
   .card-wrapper .text-wrapper .links {
     margin: 20px 10px 10px 50px;
   }
+
+  .profile-wrapper .title p {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 716px) {
@@ -678,6 +682,11 @@ footer i:hover {
   .profile-body .card {
     padding: 20px;
     width: 100vw;
+  }
+
+  .profile-wrapper .title p {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 

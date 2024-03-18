@@ -5,8 +5,9 @@ const Profile = () => {
         <div className="title container">
           <h2 className="sub-header ">3.5 years in Tech Education</h2>
           <p>
-            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
-            dolor sit amet Lorem ipsum dolor sit amet.
+            For the past 3.5 years I’ve been working in the tech ed space. I’ve
+            helped graders and students improve their technical ability through
+            personalized, in-depth feedback.
           </p>
           <div className="resume-link">
             <span className="link ">
