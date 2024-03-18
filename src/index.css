@@ -445,7 +445,15 @@ footer i:hover {
 }
 
 @media (max-width: 500px) {
+  .about-me img {
+    width: 150px;
+    margin-right: 1.15rem;
+  }
 }
 
 @media (max-width: 300px) {
+  .about-me img {
+    width: 120px;
+    margin-right: 1.15rem;
+  }
 }
