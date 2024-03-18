@@ -415,14 +415,16 @@ nav a:active {
 }
 
 /* profile section */
+.profile-wrapper {
+  margin-bottom: 100px;
+}
+
 .profile-wrapper .title-bg {
   background-color: var(--redo-light-gray);
   padding: 20px 0;
 }
 .profile-wrapper .title {
   text-align: center;
-}
-.profile-wrapper .title .resume-link {
 }
 
 .resume-link .link {
@@ -453,6 +455,51 @@ nav a:active {
 }
 .resume-link .link a:hover {
   text-decoration: none;
+}
+
+.profile-body-wrapper {
+  background-color: var(--redo-cobalt);
+  color: var(--light-text);
+  padding: 30px 0;
+}
+
+.profile-body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.profile-body h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* .profile-body .thing-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+} */
+
+.card h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+}
+
+.card h4 .icon {
+  font-size: 1.2rem;
+  width: 28px;
+  margin-right: 0.25rem;
+}
+
+.profile-body .card ul {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.profile-body .card li {
+  margin-bottom: 0.5rem;
 }
 
 footer {
@@ -488,6 +535,12 @@ footer i:hover {
 }
 
 @media (max-width: 1053px) {
+}
+
+@media (max-width: 973px) {
+  .profile-body .card {
+    width: 482px;
+  }
 }
 
 @media (max-width: 825px) {
@@ -620,6 +673,11 @@ footer i:hover {
 
   .card-wrapper .text-wrapper h3 {
     font-size: 1.75rem;
+  }
+
+  .profile-body .card {
+    padding: 20px;
+    width: 100vw;
   }
 }
 
