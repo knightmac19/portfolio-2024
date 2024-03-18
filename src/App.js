@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import FunFacts from "./components/FunFacts";
 import Projects from "./components/Projects";
+import Profile from "./components/Profile";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <About />
           <FunFacts />
           <Projects />
+          <Profile />
         </main>
       </div>
       <Footer />
