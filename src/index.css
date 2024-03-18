@@ -496,12 +496,10 @@ footer i:hover {
   /* project card section */
   .card-wrapper {
     position: relative;
-
     width: 100%;
     min-height: 150px;
-
     border-radius: 8px;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     box-shadow: 2px 2px 3px 3px var(--redo-cobalt);
   }
   .card-wrapper .project-img {
