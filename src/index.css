@@ -241,7 +241,7 @@ nav a:active {
 .about-me-text {
   /* inline-size: 600px;
   overflow-wrap: break-word; */
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 /* modal */
