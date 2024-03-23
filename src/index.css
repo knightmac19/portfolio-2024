@@ -432,6 +432,10 @@ nav a:active {
   margin: 0 auto;
 }
 
+.profile-wrapper .title p {
+  margin-bottom: 0.5rem;
+}
+
 .resume-link .link {
   display: flex;
   justify-content: center;
