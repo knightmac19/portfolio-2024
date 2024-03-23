@@ -95,62 +95,6 @@ const projects = [
     benefit: "Quickly find an employee by searching by any value",
     techStack: "Frontend React application",
   },
-  // {
-  //   id: 6,
-  //   name: "Saas Site",
-  //   tech: ["HTML", "CSS", "JS"],
-  //   repo: "https://github.com/knightmac19/site-saas"
-  //   live: {
-  //     text: "Deployed",
-  //     address: "https://knightmac19.github.io/site-saas/",
-  //     iconClass: "fas fa-rocket",
-  //   },
-  //   screenshot: saas_site,
-  //   benefit: "Responsive Saas Site",
-  //   techStack: "",
-  // },
-
-  // {
-  //   id: 7,
-  //   name: "E-Commerce Backend",
-  //   tech: ["JS", "Node", "MySQL", "Express"],
-  //   repo: "https://github.com/knightmac19/E-Commerce-Backend"
-  //
-  //   screenshot: "",
-  //   benefit: "E-Commerce CRUD Routes",
-
-  // },
-
-  // {
-  //   id: 8,
-  //   name: "Trivia Quiz",
-  //   tech: ["HTML", "CSS", "JS", "Bootstrap"],
-  //   repo: "https://github.com/knightmac19/TriviaQuiz"
-  //
-  //   screenshot: "",
-  //   benefit: "Timed Trivia Quiz",
-
-  // },
-  // {
-  //   id: 9,
-  //   name: "Password Generator",
-  //   tech: ["HTML", "CSS", "JS"],
-  //   repo: "https://github.com/knightmac19/PasswordGenerator"
-  //
-  //   screenshot: "",
-  //   benefit: "Generate Random Passwords",
-
-  // },
-  // {
-  //   id: 10,
-  //   name: "To-Do List",
-  //   tech: ["HTML", "CSS", "JS"],
-  //   repo: "https://github.com/knightmac19/ToDoList"
-  //
-  //   screenshot: "",
-  //   benefit: "Jot Down To-Do's",
-
-  // },
 ];
 
 const Project = () => {
