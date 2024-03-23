@@ -5,4 +5,5 @@ export { default as complete_weather } from "./complete_weather.png";
 export { default as employee_directory } from "./employee_directory.png";
 export { default as saas_site } from "./saas_site.png";
 export { default as wordle_helper } from "./wordle_helper.png";
+export { default as company_cli } from "./company_cli.png";
 export { default as Patrick_Dunn_Resume } from "./resume.pdf";

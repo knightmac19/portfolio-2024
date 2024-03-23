@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const ProjectCard = ({ project }) => {
-  const { id, name, repo, deployed, screenshot, benefit, techStack } = project;
+  const { id, name, repo, screenshot, benefit, techStack, live } = project;
   const getWindowDimensions = () => {
     const { innerWidth: width } = window;
     return { width };
@@ -21,7 +21,6 @@ const ProjectCard = ({ project }) => {
     return windowDimensions;
   };
   const { width } = useWindowDimensions();
-  console.log(width);
 
   if (width < 410) {
     return (
@@ -45,13 +44,13 @@ const ProjectCard = ({ project }) => {
             </span>
 
             <span className="link ">
-              <a href={deployed} rel="noopener noreferrer" target="_blank">
+              <a href={live.address} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
                   <div className="link-icon-wrapper">
-                    <i className="fas fa-rocket"></i>
+                    <i className={live.iconClass}></i>
                   </div>
 
-                  <span>Deployed</span>
+                  <span>{live.text}</span>
                 </div>
               </a>
             </span>
@@ -85,13 +84,13 @@ const ProjectCard = ({ project }) => {
             </span>
 
             <span className="link ">
-              <a href={deployed} rel="noopener noreferrer" target="_blank">
+              <a href={live.address} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
                   <div className="link-icon-wrapper">
-                    <i className="fas fa-rocket"></i>
+                    <i className={live.iconClass}></i>
                   </div>
 
-                  <span>Deployed</span>
+                  <span>{live.text}</span>
                 </div>
               </a>
             </span>
@@ -128,13 +127,17 @@ const ProjectCard = ({ project }) => {
               </span>
 
               <span className="link ">
-                <a href={deployed} rel="noopener noreferrer" target="_blank">
+                <a
+                  href={live.address}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <div className="icon-text">
                     <div className="link-icon-wrapper">
-                      <i className="fas fa-rocket"></i>
+                      <i className={live.iconClass}></i>
                     </div>
 
-                    <span>Deployed</span>
+                    <span>{live.text}</span>
                   </div>
                 </a>
               </span>
@@ -165,13 +168,13 @@ const ProjectCard = ({ project }) => {
             </span>
 
             <span className="link ">
-              <a href={deployed} rel="noopener noreferrer" target="_blank">
+              <a href={live.address} rel="noopener noreferrer" target="_blank">
                 <div className="icon-text">
                   <div className="link-icon-wrapper">
-                    <i className="fas fa-rocket"></i>
+                    <i className={live.iconClass}></i>
                   </div>
 
-                  <span>Deployed</span>
+                  <span>{live.text}</span>
                 </div>
               </a>
             </span>
